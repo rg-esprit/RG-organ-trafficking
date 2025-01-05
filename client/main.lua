@@ -1,9 +1,19 @@
--- Client-side script for Organ Trafficking
+-- Command to show the UI
+RegisterCommand('showui', function()
+    SendNUIMessage({
+        action = 'showui',
+        data = {
+            show = true
+        }
+    })
+end, false)
 
--- Example event handler
-RegisterNetEvent('RG-organ-trafficking:exampleEvent')
-AddEventHandler('RG-organ-trafficking:exampleEvent', function()
-    print('Example event triggered on client side')
-end)
-
--- Add your client-side logic here
+-- Command to hide the UI
+RegisterCommand('hideui', function()
+    SendNUIMessage({
+        action = 'showui',
+        data = {
+            show = false
+        }
+    })
+end, false)
