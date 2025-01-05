@@ -17,8 +17,8 @@ server_scripts {
 ui_page 'ui/index.html'
 
 files {
-    'ui/index.html',
-    'ui/assets/*.js',
-    'ui/assets/*.css',
-    'ui/assets/*.png',
+    'organ-trafficking-ui/ui/index.html',
+    'organ-trafficking-ui/ui/assets/*.js',
+    'organ-trafficking-ui/ui/assets/*.css',
+    'organ-trafficking-ui/ui/assets/*.png',
 }

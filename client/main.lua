@@ -18,4 +18,5 @@ RegisterCommand('hideui', function()
         }
     })
     SetNuiFocus(false, false)
+    --print('Hiding UI')
 end, false)
