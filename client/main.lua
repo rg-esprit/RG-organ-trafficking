@@ -6,6 +6,7 @@ RegisterCommand('showui', function()
             show = true
         }
     })
+    SetNuiFocus(true, true)
 end, false)
 
 -- Command to hide the UI
@@ -16,4 +17,5 @@ RegisterCommand('hideui', function()
             show = false
         }
     })
+    SetNuiFocus(false, false)
 end, false)
