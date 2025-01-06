@@ -14,11 +14,12 @@ server_scripts {
 }
 
 
-ui_page 'ui/index.html'
+ui_page 'organ-trafficking-ui/ui/index.html'
 
 files {
     'organ-trafficking-ui/ui/index.html',
     'organ-trafficking-ui/ui/assets/*.js',
     'organ-trafficking-ui/ui/assets/*.css',
     'organ-trafficking-ui/ui/assets/*.png',
+    'organ-trafficking-ui/ui/assets/organs/*.png',
 }
